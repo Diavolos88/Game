@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ContentModelUserStore">
     <attachedFolders />
-    <explicitIncludes />
-    <explicitExcludes />
+    <explicitIncludes>
+      <Path>../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ide.visualstudio@2.0.22</Path>
+      <Path>../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ide.vscode@1.2.5</Path>
+      <Path>../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.searcher@4.9.2</Path>
+      <Path>Packages</Path>
+      <Path>ProjectSettings</Path>
+    </explicitIncludes>
+    <explicitExcludes>
+      <Path>.git</Path>
+      <Path>.idea</Path>
+      <Path>.vscode</Path>
+      <Path>Library</Path>
+      <Path>Logs</Path>
+      <Path>Temp</Path>
+      <Path>UserSettings</Path>
+      <Path>obj</Path>
+    </explicitExcludes>
   </component>
 </project>

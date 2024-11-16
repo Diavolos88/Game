@@ -29,16 +29,26 @@ public class CreateFireBall : MonoBehaviour
         Vector3 pushDir = offset - transform.position;
         Vector3 addForce = - pushDir.normalized * speed;
         
-        print(offset);
-        
-        rigidbody.AddForce(addForce, ForceMode.Impulse);
+        // rigidbody.AddForce(addForce, ForceMode.Impulse);
     }
 
     void OnCollisionEnter(Collision other)
     {
-        Explode();
-        Destroy(gameObject);
+        if(!other.gameObject.CompareTag("Player"))
+        {
+            Explode();
+            Destroy(gameObject); 
+        }
     }
+
+    // void OnTriggerEnter(Collider other)
+    // {
+    //     if(!other.gameObject.CompareTag("Player"))
+    //     {
+    //         Explode();
+    //         Destroy(gameObject); 
+    //     }
+    // }
 
     void Explode()
     {

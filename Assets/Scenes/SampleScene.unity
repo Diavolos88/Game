@@ -963,6 +963,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &938506283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7798054044312894459, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
+  m_PrefabInstance: {fileID: 1272658853}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1130021601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6936325931773454092, guid: b84d87df66bb64344bd59fcc922f7bbc, type: 3}
@@ -1037,13 +1042,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arissa
       objectReference: {fileID: 0}
+    - target: {fileID: 4220495980004572043, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277965326892786012, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
+      propertyPath: impulsForce
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 4277965326892786012, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
       propertyPath: telekinesPosition
       value: 
       objectReference: {fileID: 1561231904}
+    - target: {fileID: 4636639638731941804, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4958713684103404373, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7602203778473224711, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7798054044312894459, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8992676472796240622, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8992676472796240622, guid: 63cad79ba78f29e4ebd822d177d050d4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.014
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1304,6 +1337,7 @@ MonoBehaviour:
   playerCameraParent: {fileID: 2057531376}
   player: {fileID: 651663189}
   telekinesPosition: {fileID: 1561231904}
+  fireBallPosition: {fileID: 938506283}
 --- !u!4 &1723789995
 Transform:
   m_ObjectHideFlags: 0

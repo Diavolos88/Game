@@ -30,8 +30,6 @@ public class Touchable : MonoBehaviour
         Vector3 pushDir = offset - transform.position;
         Vector3 addForce = - pushDir.normalized * force;
         
-        print(offset);
-        
         _rigidbody.AddForce(addForce, ForceMode.Impulse);
     }
 }

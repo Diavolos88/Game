@@ -6,4 +6,5 @@ public class MainConfig : MonoBehaviour
     [SerializeField] public GameObject playerCameraParent;
     [SerializeField] public GameObject player;
     [SerializeField] public GameObject telekinesPosition;
+    [SerializeField] public GameObject fireBallPosition;
 }
